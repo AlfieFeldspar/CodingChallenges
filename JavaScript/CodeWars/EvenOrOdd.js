@@ -9,6 +9,6 @@ function even_or_odd(number) {
 }
 
 //Refactored
-function even_or_odd2(number) {
+const even_or_odd2 = (number) => {
   return number % 2 === 0 ? "Even" : "Odd";
-}
+};

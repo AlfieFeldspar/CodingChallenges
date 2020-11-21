@@ -1,5 +1,5 @@
 /**Given an array of integers , Find the minimum sum which is obtained from summing each Two integers product . */
-function minSum(arr) {
+const minSum = (arr) => {
   arr.sort((a, b) => a - b);
   let sum = 0;
   for (let i = 0; i < arr.length / 2; i++) {

@@ -8,6 +8,6 @@ For example, the string "This website is for losers LOL!" would become "Ths wbst
 
 Note: for this kata y isn't considered a vowel. */
 
-function disemvowel(str) {
+const disemvowel = (str) => {
     return str = str.replace(/[aeiou]/gi, '');
   }
