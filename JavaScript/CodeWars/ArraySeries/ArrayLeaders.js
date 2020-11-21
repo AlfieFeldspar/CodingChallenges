@@ -9,20 +9,8 @@ Repetition of numbers in the array/list could occur.
 Returned Array/list should store the leading numbers in the same order in the original array/list */
 
 const arrLeaders = (array) => {
-    // function isIsogram(str) {
-    //     str = str.toLowerCase();
-    //     for (let i = 0; i < str.length; i++) {
-    //       //critical piece: j = i + 1
-    //       for (let j = i + 1; j < str.length; j++) {
-    //         if (str[i] === str[j]) {
-    //           return false;
-    //         }
-    //       }
-    //     }
-    //     return true;
-    //   }
-    //   // let result = isIsogram("Dermatoglyphics");
-    //   let result = isIsogram("moOse")
-    //   // let result = isIsogram("asa");
-    //   console.log(result);
+    
 }
+
+let results = arrayLeaders([1,2,3,4,0]);
+console.log(results);
