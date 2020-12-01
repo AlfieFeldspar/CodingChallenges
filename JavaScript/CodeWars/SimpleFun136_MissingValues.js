@@ -5,6 +5,8 @@ Your task is to find x * x * y. */
 function missingValues(arr) {
   let counts = {};
   let twice, once;
+
+  //do I really understand this?
   arr.forEach((el) => {
     counts[el] = counts[el] ? (counts[el] += 1) : 1;
   });
