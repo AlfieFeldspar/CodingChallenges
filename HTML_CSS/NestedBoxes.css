@@ -1,0 +1,49 @@
+.greatgrandparent {
+    position: relative;
+}
+.grandparent {
+    position: absolute
+}
+.parent {
+    position: absolute;
+}
+.child {
+    position: absolute;
+}
+.boxA {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    top:0px;
+    z-index: 1;
+    line-height: 550px;
+    text-align: right;
+}
+p {
+    vertical-align: text-bottom;
+}
+.boxB {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    top:0px;
+    z-index: 2;
+    line-height: 390px;
+}
+.boxC {
+    height: 100px;
+    width: 100px;
+    background-color:palevioletred;
+    line-height: 170px;
+    top:0px;
+    z-index: 3;
+    text-align: left;
+}
+.boxD {
+    height: 50px;
+    width: 50px;
+    background-color: forestgreen;
+    top: 0px;
+    z-index: 4;
+    line-height: 90px;
+}
