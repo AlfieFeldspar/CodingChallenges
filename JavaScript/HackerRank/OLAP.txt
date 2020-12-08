@@ -1,0 +1,14 @@
+OLAP (online analytical processing) cube on one hand extends a 2-dimensional array (spreadsheet table or array of facts/measures and keys/pointers to dictionaries) to a multidimensional (or hypercube) DataCube, and on other hand DataCube is using datawarehouse schemas like Star Schema or Snowflake Schema.
+
+
+OLAP: online analytical processing server.
+Increased perfomance from aggregation (also roll-up, denormalization). Decreases number of rows to search - summarize all sales for a month, eg.
+
+OLAP cubes for visualization: 
+https://apandre.wordpress.com/data/datacube/
+^^ explains drill down/up, slice, dice, pivot
+
+https://github.com/andylamp/stanford_dbclass/tree/master/13%20-%20on-line%20analytical%20processing
+
+-- ROLLUP: a*b*c + (a*b)             + (a)     + 1
+-- CUBE:   a*b*c + (a*b + a*c + b*c) + (a+b+c) + 1

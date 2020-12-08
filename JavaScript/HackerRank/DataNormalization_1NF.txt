@@ -1,0 +1,21 @@
+Unnormalized table split into the following 2 tables as first normalized form (1NF)
+*Product-ID*    *Colors*    *Price*
+1               Red,Green   15.0
+2               Blue        18.0
+3               Yellow,Pink 2.5
+
+New table 1
+*Product-ID*   *Price*
+1              15.0
+2              18.0
+3              2.5
+
+New table 2
+*Product-ID*    *Colors*    
+1               Red
+1               Green 
+2               Blue        
+3               Yellow
+3               Pink
+
+the 2nd table's primary key is a composite key (Product-ID + Colors)
