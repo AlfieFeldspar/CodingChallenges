@@ -12,3 +12,8 @@ function modifyArray(nums) {
 }
 
 modifyArray([1,2,3,4,5])
+
+// Optimized
+function modifyArray(nums) {
+    return nums.map(num => num = (num%2===0)?num*2:num*3);
+   }
