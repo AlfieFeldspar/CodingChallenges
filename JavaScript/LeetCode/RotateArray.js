@@ -1,6 +1,6 @@
 
 // This response did not work on the platform. 
-const rotate = (nums, k) => {
+const rotateRight = (nums, k) => {
     let rotatedOrder = nums.splice(nums.length-k, k)
     // console.log(rotatedOrder);
     
