@@ -5,3 +5,6 @@
 --months. 
 --Sort your result by ascending employee_id.
 
+SELECT NAME FROM EMPLOYEE
+WHERE SALARY >2000 AND MONTHS <10
+ORDER BY EMPLOYEE_ID ASC
