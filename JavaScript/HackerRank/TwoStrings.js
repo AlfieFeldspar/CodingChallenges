@@ -1,11 +1,8 @@
- function commonSubstring(a, b) {
+ function commonSubstring(a,b) {
      // Write your code here
      const aMap = {};
-     let stringLetterA = "";
-     let stringLetterB = "";
-     let counter = 0;
+
      for (let i = 0; i < a.length; i++) {
-       for (let j = 0; j < a[i].length; j++) {
            //grab each letter
          stringLetterA = a[i][j];
          // console.log(stringLetter);
