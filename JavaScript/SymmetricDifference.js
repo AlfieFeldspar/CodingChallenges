@@ -1,5 +1,5 @@
 // Finding the overlap between two arrays
-/**
+/** BRUTE FORCE
 function sym(arr1, arr2) {
   let sames = [];
   arr1.forEach((el1) => {
